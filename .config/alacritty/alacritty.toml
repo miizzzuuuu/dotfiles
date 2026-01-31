@@ -1,0 +1,35 @@
+[window.padding]
+x = 8
+y = 8
+
+[colors.primary]
+foreground = "#f8f8ff"      # Silver White
+background = "#1d1e2f"      # Background OS/Sidebar agar seamless
+
+[colors.cursor]
+text = "#1d1e2f"            # Warna background
+cursor = "#5bc9ff"          # Sky Cyan (Visibility tinggi)
+
+[colors.selection]
+text = "#f8f8ff"
+background = "#6c66fa"      # Royal Purple (Primary DMS Niri)
+
+[colors.normal]
+black   = "#353750"          # Surface Variant
+red     = "#ff0066"          # Cherry Red (Error)
+green   = "#00ffcc"          # Emerald Mint (Strings/Info)
+yellow  = "#e1ac0e"          # Casino Gold (Keywords)
+blue    = "#6c66fa"          # Royal Purple (Primary)
+magenta = "#ff4dff"          # Poker Chip Magenta (Secondary)
+cyan    = "#5bc9ff"          # Sky Cyan (Primary Container)
+white   = "#a9adc1"          # Silver Dim
+
+[colors.bright]
+black   = "#5a5b7e"          # Dealer's Shadow (Comments)
+red     = "#ff5555"          # Red Terang
+green   = "#50fa7b"          # Casino Emerald
+yellow  = "#ccff00"          # Neon Lime (Warning/JSX Braces)
+blue    = "#bd93f9"          # Amethyst (Types)
+magenta = "#ff79c6"          # Neon Pink (Constants)
+cyan    = "#8be9fd"          # Electric Cyan (Built-in)
+white   = "#f8f8ff"          # Pure Silver White

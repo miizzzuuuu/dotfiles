@@ -1,0 +1,21 @@
+{
+  "name": "mz-themes",
+  "displayName": "MZ Themes",
+  "description": "Custom color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.108.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MZ Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MZ Theme-color-theme.json"
+      }
+    ]
+  }
+}

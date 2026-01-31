@@ -1,0 +1,4 @@
+binds {
+    Mod+Shift+S { spawn-sh "rm -f /tmp/screenshot.png && niri msg action screenshot --show-pointer=false"; }
+    Print { spawn-sh "rm -f /tmp/screenshot.png && niri msg action screenshot --show-pointer=false && inotifywait -e close /tmp && swappy start --file /tmp/screenshot.png"; }
+}

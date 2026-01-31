@@ -1,0 +1,15 @@
+workspace "browser"
+workspace "chat"
+
+// Open Telegram on the "chat" workspace, if it runs at niri startup.
+window-rule {
+    match at-startup=true app-id="org.telegram.desktop"
+    match at-startup=true app-id="im.riot.Riot"
+    open-on-workspace "chat"
+}
+
+window-rule {
+    match app-id="thorium-browser"
+    open-maximized true
+    open-on-workspace "browser"
+}
